@@ -15,12 +15,12 @@ C:/Users/mikey/MoonbaseQuest
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50034
+57203
 Successfully changed project path to: C:/Users/mikey/MoonbaseQuest
 C:/Users/mikey/MoonbaseQuest
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 60.22 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.75 ms.
+Refreshing native plugins compatible for Editor in 59.48 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.73 ms.
 Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/mikey/MoonbaseQuest/Assets
@@ -35,51 +35,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002020 seconds.
+Registered in 0.001883 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 55.12 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 54.94 ms, found 5 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.877 seconds
+- Completed reload, in  1.683 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1877ms)
+	ReloadAssembly (1683ms)
 		BeginReloadAssembly (46ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (422ms)
+		EndReloadAssembly (415ms)
 			LoadAssemblies (44ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (134ms)
+			SetupTypeCache (131ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (169ms)
+			SetupLoadedEditorAssemblies (166ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (55ms)
 				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (71ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				ProcessInitializeOnLoadAttributes (69ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005678 seconds.
+Registered in 0.005131 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 55.79 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 56.09 ms, found 5 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -101,28 +101,28 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.150 seconds
+- Completed reload, in  1.107 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1151ms)
-		BeginReloadAssembly (125ms)
+	ReloadAssembly (1108ms)
+		BeginReloadAssembly (123ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (970ms)
-			LoadAssemblies (83ms)
+		EndReloadAssembly (930ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (306ms)
+			SetupTypeCache (296ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (407ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (386ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (56ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (229ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (217ms)
 				ProcessInitializeOnLoadMethodAttributes (17ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
@@ -131,15 +131,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 5 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 5 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 Unloading 3340 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 145.0 MB.
-System memory in use after: 145.2 MB.
+System memory in use before: 146.4 MB.
+System memory in use after: 146.6 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3775.
-Total: 3.729000 ms (FindLiveObjects: 0.304700 ms CreateObjectMapping: 0.145800 ms MarkObjects: 3.221400 ms  DeleteObjects: 0.056400 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3782.
+Total: 3.657600 ms (FindLiveObjects: 0.357100 ms CreateObjectMapping: 0.174100 ms MarkObjects: 3.065900 ms  DeleteObjects: 0.059700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -153,113 +153,225 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Art/MoonBase/Prefabs/AsteroidExplosion.prefab
-  artifactKey: Guid(c34c359c899647148a75c1c18db29282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/MoonBase/Prefabs/AsteroidExplosion.prefab using Guid(c34c359c899647148a75c1c18db29282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46862fc29a5052d2648b49c3827cb366') in 0.241924 seconds 
-  Import took 0.246835 seconds .
+  path: Assets/Art/MoonBase/FBX/Moonbase_Habitat.fbx
+  artifactKey: Guid(1643951e71e9710458c3366d1cca6673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MoonBase/FBX/Moonbase_Habitat.fbx using Guid(1643951e71e9710458c3366d1cca6673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98fd343314a2abb5086b7247459e91fd') in 0.456153 seconds 
+  Import took 0.461059 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/Art/MoonBase/Prefabs/MoonBase_Terminal.prefab
-  artifactKey: Guid(ca0c99d793887c245bbe0597159863a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/MoonBase/Prefabs/MoonBase_Terminal.prefab using Guid(ca0c99d793887c245bbe0597159863a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5cb2e2e7831e12c9370979bb4468f32') in 0.214350 seconds 
-  Import took 0.219304 seconds .
+  Time since last request: 0.000162 seconds.
+  path: Assets/Art/MoonBase/FBX/Moonbase_OxygenTanks.fbx
+  artifactKey: Guid(e4f01919de907934ab1aea4976e7f412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MoonBase/FBX/Moonbase_OxygenTanks.fbx using Guid(e4f01919de907934ab1aea4976e7f412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d51481e04800a2a6a974495863aef7') in 0.054950 seconds 
+  Import took 0.059842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Art/MoonBase/FBX/Earth.fbx
+  artifactKey: Guid(187e24fdeef0d87459113c0148a5ae3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MoonBase/FBX/Earth.fbx using Guid(187e24fdeef0d87459113c0148a5ae3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70bf7bd0a55a9d42287e6176944a293b') in 0.037775 seconds 
+  Import took 0.042428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Art/MoonBase/Audio/AsterioidHit.wav
+  artifactKey: Guid(dcf0fdb772aa3464fbf951f2beb16864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MoonBase/Audio/AsterioidHit.wav using Guid(dcf0fdb772aa3464fbf951f2beb16864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf424df05b43c84e94283f2847592186') in 0.064542 seconds 
+  Import took 0.069219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Art/MoonBase/FBX/Moonbase_Gun.fbx
+  artifactKey: Guid(c03e176118ce95241ad31ae68cdb4293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MoonBase/FBX/Moonbase_Gun.fbx using Guid(c03e176118ce95241ad31ae68cdb4293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360ddb64d4bc0a5f52a1433523d12a41') in 0.138628 seconds 
+  Import took 0.143252 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000152 seconds.
-  path: Assets/Art/MoonBase/Prefabs/Asteriod.prefab
-  artifactKey: Guid(87b3e627d564e3a4e93019febe1473e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/MoonBase/Prefabs/Asteriod.prefab using Guid(87b3e627d564e3a4e93019febe1473e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7675a1ba144d6d7bc14d1c7002c750cf') in 0.075105 seconds 
-  Import took 0.080591 seconds .
+  path: Assets/Art/MoonBase/Audio/ShortLaser.wav
+  artifactKey: Guid(fa5f15d5c001e1249a46f30914256f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MoonBase/Audio/ShortLaser.wav using Guid(fa5f15d5c001e1249a46f30914256f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711b9fae2c128f6887abcd7e31d7e4f7') in 0.016356 seconds 
+  Import took 0.021027 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/Art/MoonBase/Prefabs/MoonBase_WaterTank.prefab
-  artifactKey: Guid(a83255fa05c7bc84abb5b39f52887ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/MoonBase/Prefabs/MoonBase_WaterTank.prefab using Guid(a83255fa05c7bc84abb5b39f52887ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353e2429640fcf067eb63c4f663f5e1d') in 0.240919 seconds 
-  Import took 0.246450 seconds .
+  Time since last request: 0.000176 seconds.
+  path: Assets/Art/MoonBase/FBX/moonCapsule.fbx
+  artifactKey: Guid(a50bf7a349b4e5a4d90dee61c17b8541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MoonBase/FBX/moonCapsule.fbx using Guid(a50bf7a349b4e5a4d90dee61c17b8541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652936a58954148098df4c3d8c0837a0') in 0.054235 seconds 
+  Import took 0.058791 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/Art/MoonBase/Prefabs/MoonBaseSatelliteDish.prefab
-  artifactKey: Guid(71aead153a51edc4093e3b9556d6c10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/MoonBase/Prefabs/MoonBaseSatelliteDish.prefab using Guid(71aead153a51edc4093e3b9556d6c10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6f6af5e8641ed0dc0fe3a2695eb0d4') in 0.147120 seconds 
-  Import took 0.155149 seconds .
+  Time since last request: 0.000261 seconds.
+  path: Assets/Art/MoonBase/FBX/Moonbase_AsteriodCollider.fbx
+  artifactKey: Guid(f48dd28485317ac43b20547630c2d699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MoonBase/FBX/Moonbase_AsteriodCollider.fbx using Guid(f48dd28485317ac43b20547630c2d699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c3566a7582b0ea0bf2bbdfd3cbabd8') in 0.034248 seconds 
+  Import took 0.038929 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Art/MoonBase/Prefabs/MoonRock.prefab
-  artifactKey: Guid(207d1e913d55f5349a110672325e1d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/MoonBase/Prefabs/MoonRock.prefab using Guid(207d1e913d55f5349a110672325e1d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4555d9718a4824e744bcd3826e39006') in 0.076053 seconds 
-  Import took 0.081750 seconds .
+  Time since last request: 0.000225 seconds.
+  path: Assets/Art/MoonBase/FBX/LowPolyAsteriod.fbx
+  artifactKey: Guid(97707c929e9dfc1448093f7c04548bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MoonBase/FBX/LowPolyAsteriod.fbx using Guid(97707c929e9dfc1448093f7c04548bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5a2987abc16e13b6e72274ad33a88d') in 0.051584 seconds 
+  Import took 0.056316 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Art/MoonBase/Prefabs/MoonBase_Platform.prefab
-  artifactKey: Guid(efe086015070f38468ea90fd0968a1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/MoonBase/Prefabs/MoonBase_Platform.prefab using Guid(efe086015070f38468ea90fd0968a1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374798b2fed05b23ddd3524ea6d464b8') in 0.054941 seconds 
-  Import took 0.060302 seconds .
+  Time since last request: 0.000138 seconds.
+  path: Assets/Art/MoonBase/FBX/Moonbase_Platform.fbx
+  artifactKey: Guid(c2f5c5a5e48cdbb48ba1e0d5e74528c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MoonBase/FBX/Moonbase_Platform.fbx using Guid(c2f5c5a5e48cdbb48ba1e0d5e74528c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c128a5327d5a08843ec45debf2f4e329') in 0.062401 seconds 
+  Import took 0.067085 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Art/MoonBase/Prefabs/SolarPanel.prefab
-  artifactKey: Guid(394a6fb029e057e429da551b7091f319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/MoonBase/Prefabs/SolarPanel.prefab using Guid(394a6fb029e057e429da551b7091f319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690bfed71fd772d2f8d7d48631b6194e') in 0.157299 seconds 
-  Import took 0.162767 seconds .
+  Time since last request: 0.000144 seconds.
+  path: Assets/Art/MoonBase/FBX/Moonbase_watertank.FBX
+  artifactKey: Guid(62c63c058e8ab5d448f7c06cdac94089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MoonBase/FBX/Moonbase_watertank.FBX using Guid(62c63c058e8ab5d448f7c06cdac94089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d27b377f78fe0a0500e027ebc58487') in 0.131755 seconds 
+  Import took 0.136383 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/Art/MoonBase/Prefabs/Gun.prefab
-  artifactKey: Guid(342a1b253568e854f9a2e953d07332d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/MoonBase/Prefabs/Gun.prefab using Guid(342a1b253568e854f9a2e953d07332d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c67e9227e156685afa383c2523321d7') in 0.070352 seconds 
-  Import took 0.075686 seconds .
+  Time since last request: 0.000174 seconds.
+  path: Assets/Art/MoonBase/FBX/Moonbase_SatDish.fbx
+  artifactKey: Guid(3123566d8233ab344993cb0ae99a661a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MoonBase/FBX/Moonbase_SatDish.fbx using Guid(3123566d8233ab344993cb0ae99a661a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab309643e81e5cf9aeb19f71e6c3f11') in 0.204485 seconds 
+  Import took 0.209089 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Art/MoonBase/Prefabs/LaserBeam.prefab
-  artifactKey: Guid(769dd651998a4594f9f3b86844decaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/MoonBase/Prefabs/LaserBeam.prefab using Guid(769dd651998a4594f9f3b86844decaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b732c2f0141abd4a389911c5e2bda0') in 0.040870 seconds 
-  Import took 0.046857 seconds .
+  Time since last request: 0.000253 seconds.
+  path: Assets/Art/MoonBase/FBX/Moonbase_SolarPanel.fbx
+  artifactKey: Guid(aa210487499ec974981cbb6b3655b04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MoonBase/FBX/Moonbase_SolarPanel.fbx using Guid(aa210487499ec974981cbb6b3655b04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4f47e1ea519a091a2628700e76e59f') in 0.181873 seconds 
+  Import took 0.186598 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Art/MoonBase/Prefabs/Moonbase_OxygenTank.prefab
-  artifactKey: Guid(48760a921dd92ff488bb4572c0d21979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/MoonBase/Prefabs/Moonbase_OxygenTank.prefab using Guid(48760a921dd92ff488bb4572c0d21979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7851019d0c6ac2cd7c18ba701f91e6a8') in 0.056942 seconds 
-  Import took 0.062605 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Art/MoonBase/Prefabs/EarthModelForMoonBase.prefab
-  artifactKey: Guid(58e797c674b988c4bbe40b7031ed7909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/MoonBase/Prefabs/EarthModelForMoonBase.prefab using Guid(58e797c674b988c4bbe40b7031ed7909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd37cd81bf134a0cf576b981fcbb87a') in 0.045805 seconds 
-  Import took 0.051233 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Art/MoonBase/Prefabs/MoonBase_Capsule.prefab
-  artifactKey: Guid(f63c1669893e76f4ab51193148fcb534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/MoonBase/Prefabs/MoonBase_Capsule.prefab using Guid(f63c1669893e76f4ab51193148fcb534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57152b69c2c2ada65bfe0f2361b7066') in 0.053301 seconds 
-  Import took 0.058384 seconds .
+  Time since last request: 0.000140 seconds.
+  path: Assets/Art/MoonBase/FBX/MoonBase_AsteroidFragment.fbx
+  artifactKey: Guid(4adb5626dd418c8428fa62e382fecac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MoonBase/FBX/MoonBase_AsteroidFragment.fbx using Guid(4adb5626dd418c8428fa62e382fecac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4d28979a5e32990b51620c9d20ae24') in 0.030391 seconds 
+  Import took 0.035171 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000148 seconds.
-  path: Assets/Art/MoonBase/Prefabs/Moonbase_Habitat.prefab
-  artifactKey: Guid(0d791980aec33b549b12da08490ddfe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/MoonBase/Prefabs/Moonbase_Habitat.prefab using Guid(0d791980aec33b549b12da08490ddfe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de62819670b22579fa8651205a6e7f5b') in 0.171155 seconds 
-  Import took 0.177633 seconds .
+  path: Assets/Art/MoonBase/FBX/Moonbase_Terminal.fbx
+  artifactKey: Guid(8ceb15c58f616e742b45f9fdf028c16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MoonBase/FBX/Moonbase_Terminal.fbx using Guid(8ceb15c58f616e742b45f9fdf028c16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31071cda2de6196792acb47ae6f860d') in 0.140688 seconds 
+  Import took 0.145386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.866381 seconds.
+  path: Assets/Art/MoonBase/FBX/LowPolyAsteriod.fbx
+  artifactKey: Guid(97707c929e9dfc1448093f7c04548bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MoonBase/FBX/LowPolyAsteriod.fbx using Guid(97707c929e9dfc1448093f7c04548bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba650abfdee4f9dcbc27a371034f4bc') in 0.174340 seconds 
+  Import took 0.179432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.360099 seconds.
+  path: Assets/Art/MoonBase/FBX/Moonbase_AsteriodCollider.fbx
+  artifactKey: Guid(f48dd28485317ac43b20547630c2d699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MoonBase/FBX/Moonbase_AsteriodCollider.fbx using Guid(f48dd28485317ac43b20547630c2d699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaad30bfa75381dc6b801e2675fa9d65') in 0.024760 seconds 
+  Import took 0.029945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.828773 seconds.
+  path: Assets/Art/MoonBase/FBX/MoonBase_AsteroidFragment.fbx
+  artifactKey: Guid(4adb5626dd418c8428fa62e382fecac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MoonBase/FBX/MoonBase_AsteroidFragment.fbx using Guid(4adb5626dd418c8428fa62e382fecac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447261558904974659c98c222095c7fa') in 0.015586 seconds 
+  Import took 0.020775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.258141 seconds.
+  path: Assets/Art/MoonBase/FBX/Moonbase_Gun.fbx
+  artifactKey: Guid(c03e176118ce95241ad31ae68cdb4293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MoonBase/FBX/Moonbase_Gun.fbx using Guid(c03e176118ce95241ad31ae68cdb4293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63cdbf8f041304f36d12ff5282c507b1') in 0.264591 seconds 
+  Import took 0.270037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.640530 seconds.
+  path: Assets/Art/MoonBase/Prefabs/Asteriod.prefab
+  artifactKey: Guid(87b3e627d564e3a4e93019febe1473e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MoonBase/Prefabs/Asteriod.prefab using Guid(87b3e627d564e3a4e93019febe1473e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c844f91dde5ef190be46a9bad28a0663') in 0.048371 seconds 
+  Import took 0.053677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Art/MoonBase/Prefabs/MoonRock.prefab
+  artifactKey: Guid(207d1e913d55f5349a110672325e1d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MoonBase/Prefabs/MoonRock.prefab using Guid(207d1e913d55f5349a110672325e1d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab512eb26ad1992575362d9d44ae28a') in 0.064572 seconds 
+  Import took 0.069297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Art/MoonBase/Prefabs/Gun.prefab
+  artifactKey: Guid(342a1b253568e854f9a2e953d07332d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MoonBase/Prefabs/Gun.prefab using Guid(342a1b253568e854f9a2e953d07332d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42fde5aa6dafd8cd0fcedec77dbd21f') in 0.063017 seconds 
+  Import took 0.067936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1842.521899 seconds.
+  path: Assets/Art/MoonBase/Textures/EarthFromSpace.png
+  artifactKey: Guid(249aa2da90dd6664386e343b2261c2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MoonBase/Textures/EarthFromSpace.png using Guid(249aa2da90dd6664386e343b2261c2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527291f684e6388d22c4700a8351ca7f') in 0.040309 seconds 
+  Import took 0.046923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Art/MoonBase/Textures/sun.png
+  artifactKey: Guid(f98a7a3feeb11794d8932e2a72beb1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MoonBase/Textures/sun.png using Guid(f98a7a3feeb11794d8932e2a72beb1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5477feae6c6c58a054925c040b9051da') in 0.032279 seconds 
+  Import took 0.037288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Art/MoonBase/Textures/WhiteSprite.png
+  artifactKey: Guid(83492f033d9f9384db6db8912936660d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MoonBase/Textures/WhiteSprite.png using Guid(83492f033d9f9384db6db8912936660d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265428344b052d889fae8de2279e8e3c') in 0.044012 seconds 
+  Import took 0.049844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.512396 seconds.
+  path: Assets/Art/MoonBase/Textures
+  artifactKey: Guid(57097d080991efb4f9f2750cbcfcf4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MoonBase/Textures using Guid(57097d080991efb4f9f2750cbcfcf4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5803dc3ac7280e7bd200d0d02ed66ea4') in 0.005814 seconds 
+  Import took 0.011658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.353691 seconds.
+  path: Assets/Art/MoonBase/Textures/MoonGround2k_Albedo.psd
+  artifactKey: Guid(819aa797afa325b4fb42405227b28d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MoonBase/Textures/MoonGround2k_Albedo.psd using Guid(819aa797afa325b4fb42405227b28d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd739d6ea7b9f998e5e9373f7ec4098') in 0.050626 seconds 
+  Import took 0.055832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13002.002863 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc42e30003074059bef8fb59cba1b257') in 0.008172 seconds 
+  Import took 0.014758 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

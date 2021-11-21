@@ -6,8 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/TestScene.unity
-    guid: 06b9ced6e3f59bb4782b6e9e72a4dfa2
+    path: Assets/Scenes/MoonBase.unity
+    guid: 2ef27dc08301e9240b980a6abc80fcdf
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 6815af9743ff25e47946172cd551f7f1, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7b7588e651ffacc47a3c81eed28f27dc, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 433573ea43cfb99499b10c15370ce17f, type: 2}
