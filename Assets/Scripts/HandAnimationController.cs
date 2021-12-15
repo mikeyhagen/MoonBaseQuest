@@ -48,12 +48,12 @@ public class HandAnimationController : MonoBehaviour
         {
             if (thisController.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue) && triggerValue > 0.1f)
             {
-                Debug.Log("Trigger Press");
+                //Debug.Log("Trigger Press");
                 animatorController.SetFloat("Trigger", triggerValue);
             }
             if (thisController.TryGetFeatureValue(CommonUsages.grip, out float gripValue) && gripValue > 0.1f)
             {
-                Debug.Log("Grip Press");
+                //Debug.Log("Grip Press");
                 animatorController.SetFloat("Grip", gripValue);
             }
         }
