@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4016273362745119834}
   - component: {fileID: 4016273362745119835}
   - component: {fileID: 4016273362745119832}
+  - component: {fileID: 2504562229767321887}
   m_Layer: 11
   m_Name: LaserBeam
   m_TagString: Laser
@@ -62,6 +63,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!114 &2504562229767321887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4016273362745119833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 953f5eb943d198a479ebebecf6ac3696, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thrust: 61.39
 --- !u!1 &4016273363007671781
 GameObject:
   m_ObjectHideFlags: 0
@@ -117,6 +131,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -141,3 +156,4 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
