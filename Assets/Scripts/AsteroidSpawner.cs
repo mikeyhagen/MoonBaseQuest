@@ -42,9 +42,9 @@ public class AsteroidSpawner : MonoBehaviour
                                                              UnityEngine.Random.Range(-size.z / 2, size.z / 2));
 
 
-        Quaternion asteroidRotation = Quaternion.Euler(UnityEngine.Random.Range(0, 360), UnityEngine.Random.Range(0, 360), UnityEngine.Random.Range(0, 360));
+        //Quaternion asteroidRotation = Quaternion.Euler(UnityEngine.Random.Range(0, 360), UnityEngine.Random.Range(0, 360), UnityEngine.Random.Range(0, 360));
 
-        GameObject asteroid = Instantiate(asteroidModel, spawnPoint, asteroidRotation);
+        GameObject asteroid = Instantiate(asteroidModel, spawnPoint, transform.rotation);
 
         asteroid.transform.SetParent(asteroidParent);
 
