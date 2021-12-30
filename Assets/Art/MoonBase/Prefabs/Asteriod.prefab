@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8655281296514194416}
   - component: {fileID: 4117437747758533196}
   - component: {fileID: 1372483680}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Asteriod
   m_TagString: Asteroid
   m_Icon: {fileID: 0}
@@ -129,6 +129,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 97707c929e9dfc1448093f7c04548bf8, type: 3}
       propertyPath: m_Name
       value: Art_LowPolyAsteriod
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 97707c929e9dfc1448093f7c04548bf8, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97707c929e9dfc1448093f7c04548bf8, type: 3}

@@ -13,6 +13,7 @@ public class AsteroidCollision : MonoBehaviour
             Destroy(collision.gameObject);
             Instantiate(asteroidExplosionGO, collision.gameObject.transform.position, collision.transform.rotation);
 
+            GameManager.AsteroidHit();
 
             Destroy(gameObject);
         }
