@@ -23,4 +23,6 @@ public class AsteroidCollision : MonoBehaviour
         }
     }
 
+    
+
 }

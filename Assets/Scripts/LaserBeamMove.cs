@@ -12,7 +12,7 @@ public class LaserBeamMove : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
-    
+
     void FixedUpdate()
     {
         rb.velocity = transform.forward * thrust;

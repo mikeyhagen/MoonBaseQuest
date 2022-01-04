@@ -22,6 +22,6 @@ public class FireLaserGun : MonoBehaviour
         //put new laser into parent
         generatedLaserBeam.transform.SetParent(laserParent);
 
-        Debug.Log("Laser fire");
+        //Debug.Log("Laser fire");
     }
 }
